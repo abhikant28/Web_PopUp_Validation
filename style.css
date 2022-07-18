@@ -1,0 +1,51 @@
+#box {
+  background-color: rgb(189, 182, 137);
+  height: 300 px;
+  visibility: hidden;
+  border-radius: 10px;
+  max-width: 30%;
+}
+
+.clicks {
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.error {
+  background-color: transparent;
+  margin-top: -8px;
+
+}
+
+body {
+  background-color: rgba(220, 134, 35, 0.888);
+}
+
+#box.show {
+  visibility: visible;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  margin-bottom: 10px;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  width: 100%;
+}
